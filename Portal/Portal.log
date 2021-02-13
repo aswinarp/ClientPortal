@@ -1,0 +1,525 @@
+INFO  09:51:08 Trying to Login
+INFO  10:03:30 Trying to Login
+INFO  10:03:31 Login Successful
+INFO  10:03:32 Called Medicine Service
+INFO  10:03:33 Got Reply From Medicine Service
+INFO  10:03:36 Called Pharmacy service
+INFO  10:03:36 Incorrect Input to Pharmacy
+INFO  10:03:54 Trying to Login
+INFO  10:03:55 Login Successful
+INFO  10:03:59 Schedule Service Called
+INFO  10:03:59 Incorrect Input to Schedule Service
+INFO  10:04:01 Supply List retrieved from DB
+INFO  10:04:04 Logged out
+INFO  10:44:23 Trying to Login
+INFO  10:44:24 Login Successful
+INFO  10:44:26 Supply List retrieved from DB
+INFO  10:44:30 Schedule List retrieved from DB
+INFO  10:44:31 Supply List retrieved from DB
+INFO  10:44:33 Schedule List retrieved from DB
+INFO  10:44:37 Schedule Service Called
+INFO  10:47:03 Schedule List Saved to DB
+INFO  10:47:05 Schedule List retrieved from DB
+INFO  10:47:55 Logged out
+INFO  11:12:16 Trying to Login
+INFO  11:12:16 Login Successful
+INFO  11:12:21 Schedule Service Called
+INFO  11:12:22 Incorrect Input to Schedule Service
+INFO  11:12:57 Schedule Service Called
+INFO  11:12:57 Incorrect Input to Schedule Service
+INFO  11:13:29 Logged out
+INFO  12:36:51 Trying to Login
+INFO  12:36:52 Login Successful
+INFO  12:36:57 Schedule Service Called
+INFO  12:36:57 Incorrect Input to Schedule Service
+INFO  12:36:59 Schedule Service Called
+INFO  12:40:51 Trying to Login
+INFO  12:40:52 Login Successful
+INFO  12:40:59 Schedule Service Called
+INFO  12:40:59 Incorrect Input to Schedule Service
+INFO  12:41:04 Schedule Service Called
+INFO  01:01:15 Trying to Login
+INFO  01:01:15 Login Successful
+INFO  01:01:23 Supply List retrieved from DB
+INFO  01:13:59 Trying to Login
+INFO  01:14:00 Login Successful
+INFO  01:14:29 Trying to Login
+INFO  01:14:30 Login Successful
+INFO  01:16:08 Trying to Login
+INFO  01:16:09 Login Successful
+INFO  01:21:07 Trying to Login
+INFO  01:21:08 Login Successful
+INFO  01:21:18 Called Medicine Service
+INFO  01:21:18 Got Reply From Medicine Service
+INFO  01:22:53 Trying to Login
+INFO  01:22:54 Login Successful
+INFO  01:24:56 Trying to Login
+INFO  01:24:57 Login Successful
+INFO  01:26:43 Trying to Login
+INFO  01:26:44 Login Successful
+INFO  01:32:39 Trying to Login
+INFO  01:32:41 Login Successful
+INFO  01:33:12 Trying to Login
+INFO  01:33:12 Login Successful
+INFO  01:34:20 Trying to Login
+INFO  01:34:21 Login Successful
+INFO  01:36:18 Trying to Login
+INFO  01:36:18 Login Successful
+INFO  01:37:04 Logged out
+INFO  01:38:04 Trying to Login
+INFO  01:38:04 Login Successful
+INFO  01:38:49 Trying to Login
+INFO  01:38:50 Login Successful
+INFO  01:41:47 Trying to Login
+INFO  01:41:48 Login Successful
+INFO  01:41:50 Called Medicine Service
+INFO  01:41:50 Got Reply From Medicine Service
+INFO  01:41:55 Called Medicine Service
+INFO  01:41:56 Got Reply From Medicine Service
+INFO  01:48:07 Trying to Login
+INFO  01:48:08 Login Successful
+INFO  01:48:10 Called Medicine Service
+INFO  01:48:11 Got Reply From Medicine Service
+INFO  01:48:15 Logged out
+INFO  01:50:40 Trying to Login
+INFO  01:50:41 Login Successful
+INFO  01:50:43 Called Medicine Service
+INFO  01:50:44 Got Reply From Medicine Service
+INFO  01:58:22 Trying to Login
+INFO  01:58:23 Login Successful
+INFO  01:58:25 Logged out
+INFO  02:00:50 Trying to Login
+INFO  02:00:51 Login Successful
+INFO  02:00:56 Logged out
+INFO  02:06:48 Trying to Login
+INFO  02:06:49 Login Failed
+INFO  02:09:06 Trying to Login
+INFO  02:09:07 Login Failed
+INFO  02:09:55 Trying to Login
+INFO  02:09:55 Login Successful
+INFO  02:09:57 Logged out
+INFO  02:10:03 Trying to Login
+INFO  02:10:04 Login Failed
+INFO  02:10:51 Trying to Login
+INFO  02:10:52 Login Failed
+INFO  02:11:40 Trying to Login
+INFO  02:11:41 Login Failed
+INFO  02:12:17 Trying to Login
+INFO  02:12:17 Login Successful
+INFO  02:13:10 Logged out
+INFO  02:13:29 Trying to Login
+INFO  02:13:30 Login Successful
+INFO  02:27:23 Trying to Login
+INFO  02:27:24 Login Successful
+INFO  02:27:27 Supply List retrieved from DB
+INFO  02:28:03 Logged out
+INFO  02:42:46 Trying to Login
+INFO  02:42:47 Login Successful
+INFO  02:42:49 Schedule List retrieved from DB
+INFO  02:43:09 Logged out
+INFO  02:43:54 Trying to Login
+INFO  02:43:55 Login Successful
+INFO  02:46:02 Trying to Login
+INFO  02:46:03 Login Successful
+INFO  02:47:47 Trying to Login
+INFO  02:47:48 Login Successful
+INFO  02:49:06 Trying to Login
+INFO  02:49:07 Login Successful
+INFO  02:50:50 Trying to Login
+INFO  02:50:51 Login Successful
+INFO  02:51:41 Trying to Login
+INFO  02:51:42 Login Successful
+INFO  02:52:36 Trying to Login
+INFO  02:52:37 Login Successful
+INFO  02:53:07 Trying to Login
+INFO  02:53:08 Login Successful
+INFO  02:53:45 Trying to Login
+INFO  02:53:45 Login Successful
+INFO  02:54:19 Trying to Login
+INFO  02:54:19 Login Successful
+INFO  02:55:35 Trying to Login
+INFO  02:55:36 Login Successful
+INFO  02:55:51 Trying to Login
+INFO  02:55:52 Login Successful
+INFO  02:56:09 Trying to Login
+INFO  02:56:10 Login Successful
+INFO  02:56:46 Trying to Login
+INFO  02:56:47 Login Successful
+INFO  02:58:38 Trying to Login
+INFO  02:58:39 Login Successful
+INFO  02:59:04 Trying to Login
+INFO  02:59:05 Login Successful
+INFO  03:13:43 Trying to Login
+INFO  03:13:44 Login Successful
+INFO  03:13:47 Schedule List retrieved from DB
+INFO  03:15:05 Trying to Login
+INFO  03:15:06 Login Successful
+INFO  03:15:09 Schedule List retrieved from DB
+INFO  03:15:36 Trying to Login
+INFO  03:15:36 Login Successful
+INFO  03:15:39 Called Medicine Service
+INFO  03:15:40 Got Reply From Medicine Service
+INFO  03:15:45 Schedule List retrieved from DB
+INFO  03:16:35 Trying to Login
+INFO  03:16:36 Login Successful
+INFO  03:16:41 Schedule List retrieved from DB
+INFO  03:18:01 Trying to Login
+INFO  03:18:02 Login Successful
+INFO  03:18:05 Schedule List retrieved from DB
+INFO  03:20:04 Trying to Login
+INFO  03:20:05 Login Successful
+INFO  03:20:07 Schedule List retrieved from DB
+INFO  03:20:42 Trying to Login
+INFO  03:20:43 Login Successful
+INFO  03:20:45 Schedule List retrieved from DB
+INFO  03:21:38 Trying to Login
+INFO  03:21:39 Login Successful
+INFO  03:22:26 Trying to Login
+INFO  03:22:30 Login Successful
+INFO  03:22:33 Schedule List retrieved from DB
+INFO  03:24:02 Trying to Login
+INFO  03:24:03 Login Successful
+INFO  03:24:05 Schedule List retrieved from DB
+INFO  03:24:36 Trying to Login
+INFO  03:24:36 Login Successful
+INFO  03:24:40 Schedule List retrieved from DB
+INFO  03:25:32 Trying to Login
+INFO  03:25:36 Login Successful
+INFO  03:25:39 Schedule List retrieved from DB
+INFO  03:26:31 Trying to Login
+INFO  03:26:32 Login Successful
+INFO  03:26:34 Schedule List retrieved from DB
+INFO  03:28:15 Trying to Login
+INFO  03:28:16 Login Successful
+INFO  03:28:22 Schedule List retrieved from DB
+INFO  03:30:15 Trying to Login
+INFO  03:30:15 Trying to Login
+INFO  03:30:16 Login Successful
+INFO  03:30:16 Login Successful
+INFO  03:30:20 Schedule List retrieved from DB
+INFO  03:30:54 Trying to Login
+INFO  03:30:55 Login Successful
+INFO  03:30:58 Schedule List retrieved from DB
+INFO  03:31:25 Trying to Login
+INFO  03:31:26 Login Successful
+INFO  03:31:29 Schedule List retrieved from DB
+INFO  03:35:24 Trying to Login
+INFO  03:35:24 Login Successful
+INFO  03:35:46 Schedule Service Called
+INFO  03:35:47 Incorrect Input to Schedule Service
+INFO  03:36:26 Schedule Service Called
+INFO  03:37:57 Trying to Login
+INFO  03:37:58 Login Successful
+INFO  03:38:04 Schedule Service Called
+INFO  03:38:06 Called Medicine Service
+INFO  03:38:07 Got Reply From Medicine Service
+INFO  03:38:14 Called Pharmacy service
+INFO  03:38:14 Got Supply List
+INFO  03:39:00 Trying to Login
+INFO  03:39:01 Login Successful
+INFO  03:39:02 Called Medicine Service
+INFO  03:39:03 Got Reply From Medicine Service
+INFO  03:39:07 Called Pharmacy service
+INFO  03:39:07 Got Supply List
+INFO  03:40:23 Trying to Login
+INFO  03:40:24 Login Successful
+INFO  03:40:26 Called Medicine Service
+INFO  03:40:27 Got Reply From Medicine Service
+INFO  03:40:30 Called Pharmacy service
+INFO  03:40:31 Got Supply List
+INFO  03:41:53 Trying to Login
+INFO  03:41:54 Login Successful
+INFO  03:41:55 Called Medicine Service
+INFO  03:41:56 Got Reply From Medicine Service
+INFO  03:41:59 Called Pharmacy service
+INFO  03:42:00 Got Supply List
+INFO  03:44:45 Trying to Login
+INFO  03:44:46 Login Successful
+INFO  03:44:48 Called Medicine Service
+INFO  03:44:48 Got Reply From Medicine Service
+INFO  03:44:52 Called Pharmacy service
+INFO  03:44:53 Got Supply List
+INFO  03:45:08 Schedule List retrieved from DB
+INFO  03:45:38 Trying to Login
+INFO  03:45:39 Login Successful
+INFO  03:45:41 Called Medicine Service
+INFO  03:45:42 Got Reply From Medicine Service
+INFO  03:45:46 Called Pharmacy service
+INFO  03:45:46 Got Supply List
+INFO  03:45:55 Called Medicine Service
+INFO  03:45:56 Got Reply From Medicine Service
+INFO  03:46:09 Called Medicine Service
+INFO  03:46:10 Got Reply From Medicine Service
+INFO  03:46:12 Called Pharmacy service
+INFO  03:46:13 Incorrect Input to Pharmacy
+INFO  03:46:21 Supply List retrieved from DB
+INFO  03:49:22 Trying to Login
+INFO  03:49:23 Login Successful
+INFO  03:49:27 Supply List retrieved from DB
+INFO  03:50:33 Trying to Login
+INFO  03:50:34 Login Successful
+INFO  03:50:37 Supply List retrieved from DB
+INFO  03:51:09 Schedule Service Called
+INFO  03:51:13 Called Medicine Service
+INFO  03:51:13 Got Reply From Medicine Service
+INFO  03:51:18 Called Pharmacy service
+INFO  03:51:19 Got Supply List
+INFO  03:55:33 Trying to Login
+INFO  03:55:34 Login Successful
+INFO  03:55:40 Schedule Service Called
+INFO  03:55:41 Incorrect Input to Schedule Service
+INFO  03:55:44 Schedule Service Called
+INFO  03:56:07 Logged out
+INFO  04:11:34 Trying to Login
+INFO  04:11:35 Login Successful
+INFO  04:11:39 Called Medicine Service
+INFO  04:11:40 Got Reply From Medicine Service
+INFO  04:11:52 Called Pharmacy service
+INFO  04:11:52 Got Supply List
+INFO  04:11:58 Supply List retrieved from DB
+INFO  04:12:04 Schedule List retrieved from DB
+INFO  04:12:12 Called Medicine Service
+INFO  04:12:13 Got Reply From Medicine Service
+INFO  04:12:16 Supply List retrieved from DB
+INFO  04:12:20 Called Medicine Service
+INFO  04:12:21 Got Reply From Medicine Service
+INFO  04:12:46 Logged out
+INFO  05:18:41 Trying to Login
+INFO  05:18:42 Login Successful
+INFO  05:19:10 Called Medicine Service
+INFO  05:19:10 Got Reply From Medicine Service
+INFO  05:19:19 Logged out
+INFO  05:19:35 Trying to Login
+INFO  05:19:36 Login Successful
+INFO  05:19:37 Logged out
+INFO  05:19:41 Trying to Login
+INFO  05:19:42 Login Successful
+INFO  05:19:47 Supply List retrieved from DB
+INFO  05:19:51 Schedule List retrieved from DB
+INFO  05:19:53 Logged out
+INFO  05:37:18 Trying to Login
+INFO  05:37:19 Login Successful
+INFO  05:37:22 Called Medicine Service
+INFO  05:37:22 Got Reply From Medicine Service
+INFO  05:37:26 Schedule List retrieved from DB
+INFO  05:37:31 Called Medicine Service
+INFO  05:37:32 Got Reply From Medicine Service
+INFO  05:37:36 Supply List retrieved from DB
+INFO  05:37:39 Schedule List retrieved from DB
+INFO  05:37:44 Called Medicine Service
+INFO  05:37:44 Got Reply From Medicine Service
+INFO  05:38:50 Called Medicine Service
+INFO  05:38:51 Got Reply From Medicine Service
+INFO  05:39:01 Trying to Login
+INFO  05:39:02 Login Successful
+INFO  05:39:15 Called Medicine Service
+INFO  05:39:16 Got Reply From Medicine Service
+INFO  05:39:21 Supply List retrieved from DB
+INFO  05:39:25 Schedule List retrieved from DB
+INFO  05:39:30 Called Medicine Service
+INFO  05:39:31 Got Reply From Medicine Service
+INFO  05:39:32 Called Medicine Service
+INFO  05:39:32 Got Reply From Medicine Service
+INFO  05:39:35 Called Pharmacy service
+INFO  05:39:35 Got Supply List
+INFO  05:39:42 Schedule Service Called
+INFO  05:39:42 Schedule Service Called
+INFO  05:42:28 Trying to Login
+INFO  05:42:29 Login Successful
+INFO  05:42:33 Schedule Service Called
+INFO  05:42:39 Supply List retrieved from DB
+INFO  05:42:43 Schedule List retrieved from DB
+INFO  05:42:47 Called Medicine Service
+INFO  05:42:47 Got Reply From Medicine Service
+INFO  05:42:49 Called Pharmacy service
+INFO  05:42:49 Incorrect Input to Pharmacy
+INFO  05:42:52 Called Pharmacy service
+INFO  05:42:52 Got Supply List
+INFO  05:43:03 Schedule Service Called
+INFO  05:44:09 Trying to Login
+INFO  05:44:10 Login Successful
+INFO  05:44:13 Schedule Service Called
+INFO  05:44:21 Called Medicine Service
+INFO  05:44:21 Got Reply From Medicine Service
+INFO  05:44:25 Called Pharmacy service
+INFO  05:44:26 Got Supply List
+INFO  05:44:59 Trying to Login
+INFO  05:45:00 Login Successful
+INFO  05:45:04 Schedule Service Called
+INFO  05:45:06 Called Medicine Service
+INFO  05:45:07 Got Reply From Medicine Service
+INFO  05:45:10 Called Pharmacy service
+INFO  05:45:11 Got Supply List
+INFO  05:45:22 Schedule Service Called
+INFO  05:45:59 Trying to Login
+INFO  05:46:00 Login Successful
+INFO  05:46:01 Called Medicine Service
+INFO  05:46:02 Got Reply From Medicine Service
+INFO  05:46:06 Schedule Service Called
+INFO  05:47:39 Trying to Login
+INFO  05:47:40 Login Successful
+INFO  05:47:42 Called Medicine Service
+INFO  05:47:42 Got Reply From Medicine Service
+INFO  05:47:51 Schedule Service Called
+INFO  05:49:59 Trying to Login
+INFO  05:50:00 Login Successful
+INFO  05:50:00 Called Medicine Service
+INFO  05:50:01 Got Reply From Medicine Service
+INFO  05:50:04 Schedule Service Called
+INFO  05:53:01 Trying to Login
+INFO  05:53:02 Login Successful
+INFO  05:53:05 Schedule Service Called
+INFO  05:53:45 Trying to Login
+INFO  05:53:45 Login Successful
+INFO  05:53:52 Schedule Service Called
+INFO  05:58:13 Trying to Login
+INFO  05:58:14 Login Successful
+INFO  05:59:55 Trying to Login
+INFO  05:59:56 Login Successful
+INFO  06:00:33 Trying to Login
+INFO  06:00:34 Login Successful
+INFO  06:16:25 Trying to Login
+INFO  06:16:26 Login Successful
+INFO  06:16:50 Trying to Login
+INFO  06:16:50 Login Successful
+INFO  06:17:46 Called Medicine Service
+INFO  06:17:46 Got Reply From Medicine Service
+INFO  06:17:51 Called Pharmacy service
+INFO  06:17:51 Got Supply List
+INFO  06:18:00 Schedule Service Called
+INFO  06:18:40 Trying to Login
+INFO  06:18:40 Login Successful
+INFO  06:18:42 Called Medicine Service
+INFO  06:18:42 Got Reply From Medicine Service
+INFO  06:18:46 Schedule Service Called
+INFO  06:19:13 Trying to Login
+INFO  06:19:14 Login Successful
+INFO  06:19:17 Schedule Service Called
+INFO  06:19:58 Trying to Login
+INFO  06:19:59 Login Successful
+INFO  06:20:02 Schedule Service Called
+INFO  06:20:36 Logged out
+INFO  06:21:01 Logged out
+INFO  10:38:06 Trying to Login
+INFO  10:38:24 Trying to Login
+INFO  09:50:12 Trying to Login
+INFO  09:50:12 Login Successful
+INFO  09:50:20 Supply List retrieved from DB
+INFO  09:50:23 Schedule List retrieved from DB
+INFO  09:50:32 Called Medicine Service
+INFO  09:50:32 Got Reply From Medicine Service
+INFO  09:50:35 Supply List retrieved from DB
+INFO  09:50:40 Schedule Service Called
+INFO  09:50:40 Incorrect Input to Schedule Service
+INFO  09:50:42 Schedule Service Called
+INFO  09:52:58 Trying to Login
+INFO  09:52:58 Login Successful
+INFO  09:53:00 Called Medicine Service
+INFO  09:53:00 Got Reply From Medicine Service
+INFO  09:53:04 Called Pharmacy service
+INFO  09:53:04 Got Supply List
+INFO  09:53:09 Schedule Service Called
+INFO  09:53:10 Incorrect Input to Schedule Service
+INFO  09:53:12 Schedule Service Called
+INFO  09:53:18 Schedule List retrieved from DB
+INFO  09:53:23 Logged out
+INFO  10:28:34 Trying to Login
+INFO  10:28:34 Login Successful
+INFO  10:28:42 Called Medicine Service
+INFO  10:28:42 Got Reply From Medicine Service
+INFO  10:28:46 Schedule Service Called
+INFO  10:28:55 Called Medicine Service
+INFO  10:28:55 Got Reply From Medicine Service
+INFO  10:28:58 Called Pharmacy service
+INFO  10:28:58 Got Supply List
+INFO  10:29:03 Schedule List retrieved from DB
+INFO  10:29:06 Supply List retrieved from DB
+INFO  10:29:36 Logged out
+INFO  10:49:59 Trying to Login
+INFO  10:49:59 Login Successful
+INFO  10:50:00 Called Medicine Service
+INFO  10:50:00 Got Reply From Medicine Service
+INFO  10:50:02 Called Pharmacy service
+INFO  10:50:02 Got Supply List
+INFO  10:50:07 Schedule Service Called
+INFO  10:50:11 Supply List retrieved from DB
+INFO  10:50:12 Schedule List retrieved from DB
+INFO  10:50:13 Logged out
+INFO  11:47:06 Trying to Login
+INFO  11:47:06 Login Successful
+INFO  11:47:08 Called Medicine Service
+INFO  11:47:08 Got Reply From Medicine Service
+INFO  11:47:11 Called Pharmacy service
+INFO  11:47:11 Got Supply List
+INFO  11:47:24 Schedule Service Called
+INFO  11:47:24 Incorrect Input to Schedule Service
+INFO  11:47:28 Schedule Service Called
+INFO  11:47:28 Incorrect Input to Schedule Service
+INFO  11:47:31 Called Medicine Service
+INFO  11:47:31 Got Reply From Medicine Service
+INFO  11:47:39 Supply List retrieved from DB
+INFO  11:47:45 Called Medicine Service
+INFO  11:47:45 Got Reply From Medicine Service
+INFO  11:48:08 Logged out
+INFO  12:00:12 Trying to Login
+INFO  12:00:37 Trying to Login
+INFO  12:00:37 Login Successful
+INFO  12:04:13 Trying to Login
+INFO  12:04:13 Login Successful
+INFO  12:09:57 Trying to Login
+INFO  12:30:27 Trying to Login
+INFO  12:30:38 Trying to Login
+INFO  12:30:38 Login Successful
+INFO  12:30:39 Called Medicine Service
+INFO  12:31:44 Trying to Login
+INFO  12:31:44 Login Successful
+INFO  12:31:46 Called Medicine Service
+INFO  12:31:46 Got Reply From Medicine Service
+INFO  12:31:57 Called Pharmacy service
+INFO  12:32:02 Medicine Stock Not Working
+INFO  12:32:21 Logged out
+INFO  12:36:16 Trying to Login
+INFO  12:36:18 Login Successful
+INFO  12:36:22 Schedule Service Called
+INFO  12:36:22 Incorrect Input to Schedule Service
+INFO  12:36:24 Schedule Service Called
+INFO  12:36:28 Medicine Stock Not Working
+INFO  01:17:23 Trying to Login
+INFO  01:17:23 Login Successful
+INFO  01:17:31 Called Medicine Service
+INFO  01:17:31 Got Reply From Medicine Service
+INFO  01:17:55 Schedule List retrieved from DB
+INFO  01:18:04 Logged out
+INFO  01:59:58 Trying to Login
+INFO  01:59:58 Login Successful
+INFO  02:00:40 Called Medicine Service
+INFO  02:00:40 Got Reply From Medicine Service
+INFO  02:01:14 Called Pharmacy service
+INFO  02:01:14 Got Supply List
+INFO  02:01:34 Schedule Service Called
+INFO  02:01:46 Schedule List retrieved from DB
+INFO  02:01:49 Supply List retrieved from DB
+INFO  02:01:54 Logged out
+INFO  02:01:44 Trying to Login
+INFO  02:01:45 Login Successful
+INFO  02:01:47 Called Medicine Service
+INFO  02:01:47 Got Reply From Medicine Service
+INFO  02:01:51 Schedule Service Called
+INFO  02:01:51 Incorrect Input to Schedule Service
+INFO  02:01:53 Logged out
+INFO  02:30:13 Trying to Login
+INFO  02:30:14 Login Failed
+INFO  02:30:17 Trying to Login
+INFO  02:30:17 Login Successful
+INFO  02:30:20 Called Medicine Service
+INFO  02:30:20 Got Reply From Medicine Service
+INFO  02:30:30 Called Pharmacy service
+INFO  02:30:30 Got Supply List
+INFO  02:30:34 Supply List Saved to DB
+INFO  02:30:43 Schedule Service Called
+INFO  02:30:43 Incorrect Input to Schedule Service
+INFO  02:30:48 Schedule Service Called
+INFO  02:30:53 Schedule List Saved to DB
+INFO  02:30:57 Supply List retrieved from DB
+INFO  02:31:03 Schedule List retrieved from DB
+INFO  02:31:08 Logged out

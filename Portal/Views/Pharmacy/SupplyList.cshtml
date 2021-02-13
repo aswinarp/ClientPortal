@@ -1,0 +1,50 @@
+﻿@model List<Pharmacy>
+
+@{
+    ViewData["Title"] = "Supply List";
+}
+<div class="bg-white pb-lg-5">
+    <h3>Supply Details</h3>
+    <form asp-controller="Dash" asp-action="SavePharmacy">
+        <table class="table table-bordered border-dark pb-5">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].PharmacyName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].MedicineName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].SupplyCount)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PharmacyName)
+                        </td>
+                        <td>
+                            @*@Html.DisplayFor(modelItem => item.MedicineName)*@
+                            @foreach (var name in item.MedicineName)
+                            {
+                                @Html.DisplayFor(modelItem => name)<br />
+                            }
+                        </td>
+                        <td>
+                            @*@Html.DisplayFor(modelItem => item.SupplyCount)*@
+                            @foreach (var name in item.SupplyCount)
+                            {
+                                @Html.DisplayFor(modelItem => name)<br />
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+            <input type="submit" class="btn btn-outline-dark" value="Save to Dashboard" />
+    </form>
+</div>

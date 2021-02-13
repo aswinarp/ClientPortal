@@ -1,0 +1,56 @@
+﻿@model List<Pharmacy>
+
+@{
+    ViewData["Title"] = "Supply List";
+}
+@if (!Model.Any())
+{
+    <h3>No Data Saved</h3>
+}
+else
+{
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 bg-dark pr-2 pl-2 pb-1 shadow-sm" style="border-radius:15px">
+            <h3 class="text-white text-center p-2">Saved Supply List</h3>
+            <table class="table table-bordered bg-white pb-0">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model[0].PharmacyName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model[0].MedicineName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model[0].SupplyCount)
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PharmacyName)
+                            </td>
+                            <td>
+                                @foreach (var name in item.MedicineName)
+                                {
+                                    @Html.DisplayFor(modelItem => name)<br />
+                                }
+                            </td>
+                            <td>
+                                @foreach (var name in item.SupplyCount)
+                                {
+                                    @Html.DisplayFor(modelItem => name)<br />
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,78 @@
+﻿@model List<Schedule>
+
+@{
+    ViewData["Title"] = "Schedule";
+}
+@if (!Model.Any())
+{
+    <h3>No Data Saved</h3>
+}
+else
+{ 
+<div class="container pt-5">
+<div class="row">
+    <div class="col-sm-12 bg-dark pr-2 pl-2 pb-1 shadow-sm" style="border-radius:15px">
+        <h3 class="text-white text-center p-3">Saved Representative Schedule</h3>
+        <table class="table table-bordered bg-white pb-0">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].RepName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].DocName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Ailment)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Medicine)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Time)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Date)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Mobile)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RepName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DocName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Ailment)
+                        </td>
+                        <td>
+                            @*@Html.DisplayFor(modelItem => item.Medicine)*@
+                            @foreach (var name in item.Medicine)
+                            {
+                                @Html.DisplayFor(modelItem => name)<br />
+                            }
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Time)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Mobile)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+}

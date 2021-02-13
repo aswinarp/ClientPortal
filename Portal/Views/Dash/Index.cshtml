@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<br />
+<br />
+
+<form asp-controller="Dash" asp-action="ShowPharmacy">
+    <i class="bi bi-clipboard-plus" style="font-size: 4rem"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input style="margin-bottom:20px" type="submit" class="btn btn-outline-dark btn-lg" value="View Saved Pharmacy Supply List" />
+</form>
+
+<form asp-controller="Dash" asp-action="ShowSchedule">
+    <i class="bi bi-calendar2-week" style="font-size: 4rem"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input style="margin-bottom:18px" type="submit" class="btn btn-outline-dark btn-lg" value="View Saved Representative Schedule" />
+</form>
+
+
+

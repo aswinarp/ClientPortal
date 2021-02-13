@@ -1,0 +1,29 @@
+﻿@model List<MedicineQuantity>
+
+@{
+    ViewData["Title"] = "Request Stock";
+}
+
+@{
+    string listStr = ViewBag.MedicineNames; 
+    List<string> nameList = listStr.Split(',').ToList();
+    int count = nameList.Count;
+}
+
+<h4 class="text-danger">@ViewBag.Message</h4>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div class="form-group">
+                @for (int i = 0; i < count; i++)
+                {
+                    <label class="control-label">@nameList[i]</label>
+                    <input class="form-control" asp-for="@Model[i].Quantity" />
+                }
+                <br />
+                <br />
+                <input type="submit" class="btn btn-outline-dark" value="Generate Request" />
+            </div>
+        </form>
+    </div>
+</div>

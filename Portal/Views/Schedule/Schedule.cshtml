@@ -1,0 +1,72 @@
+﻿@model List<Schedule>
+
+@{
+    ViewData["Title"] = "Schedule";
+}
+<div class="bg-white">
+    <br />
+    <h2>Schedule</h2>
+    <br />
+    <form asp-controller="Dash" asp-action="SaveSchedule">
+        <table class="table table-bordered border-dark ">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].RepName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].DocName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Ailment)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Medicine)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Time)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Date)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model[0].Mobile)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RepName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DocName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Ailment)
+                        </td>
+                        <td>
+                            @*@Html.DisplayFor(modelItem => item.Medicine)*@
+                            @foreach (var name in item.Medicine)
+                            {
+                                @Html.DisplayFor(modelItem => name)<br />
+                            }
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Time)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Mobile)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <input type="submit" class="btn btn-outline-dark" value="Save to Dashboard" />
+    </form>
+</div>
